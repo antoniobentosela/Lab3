@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer parcial labo III</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <div id="divFlex">
+    <div id="divSpinner" class="spinner" hidden></div>
+    <div id="divTabla">
+        <table id="tabla">
+            <tr id=cabecera> 
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Localidad</th>
+                <th>Sexo</th>
+            </tr>
+        </table>
+    </div>
+
+    <div id="divFormPersonas" hidden>   
+        <input type="button" value="x" id="btnCerrar" class="btnCerrar">
+        <br>
+        <br>
+        <label for="txtNombre">Nombre</label>
+        <br>
+        <input type="text" name="txtNombre" id="txtNombre">
+        <br>
+        <label for="txtNombre">Apellido</label>
+        <br>
+        <input type="text" name="txtApellido" id="txtApellido">
+        <br>
+        <label for="selectLocalidad">Localidad</label>
+        <br>
+        <select name="selectLocalidad" id="selectLocalidad">
+            <option value="Barracas" >Barracas</option>
+            <option value="Wilde" >Wilde</option>
+        </select>
+        <br>
+        <label for="radioSexo">Sexo</label>
+        <br>
+        <input type="radio" name="masculino" id="masculino" value="Masculino">
+        <label for="sexo">Masculino</label>
+        <br>
+        <input type="radio" name="femenino" id="femenino" value="Femenino">
+        <label for="sexo">Femenino</label>
+        <br>
+        
+        <input type="button" value="Eliminar" id="btnEliminar" class="btnEliminar">
+        <input type="button" value="Modificar" id="btnModificar" class="btnModificar">
+    </div>
+
+    </div>
+
+
+
+</body>
+</html>
