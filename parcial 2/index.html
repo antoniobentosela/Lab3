@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABM Segundo Parcial</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/clases.js"></script>
+</head>
+
+<body style="background-color: cornflowerblue;">
+    <div id="div" style="width: 50%">
+        <label for="txtID">ID</label>
+        <input type="txtID" id="inputID" class="inputID" disabled>
+        <br>
+        <label for="txtNombre">Nombre</label>
+        <input type="txtNombre" id="inputNombre" class="inputNombre">
+        <br>
+        <label for="txtApellido">Apellido</label>
+        <input type="txtApellido" id="inputApellido" class="inputApellido">
+        <br>
+
+        <label for="txtEdad">Edad</label>
+        <input type="txtEdad" id="inputEdad" class="inputEdad">
+        <br>
+        <label for="selectSexo">Sexo</label>
+        <select name="select" id="selectSexo" class="selectSexo">
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino" selected>Femenino</option>
+        </select>
+        <br>
+    </div>
+        <div id="botones">
+            <input type="button" value="Eliminar" id="btnEliminar" class="btnEliminar">
+            <input type="button" value="Agregar" id="btnAgregar" class="btnAgregar">
+        </div>
+    <div id="divTabla">
+        <table id="tabla">
+            <tr id=cabecera>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+                <th>Sexo</th>
+            </tr>
+        </table>
+    </div>
+
+    
+
+</body>
+
+</html>
